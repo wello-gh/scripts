@@ -33,3 +33,13 @@ local errors = {
     ["CriticalError"] = "CriticalError",
     ["HttpError"] = "HttpError",
 }
+
+local w, e = pcall(function()
+    print("loading script")
+end)
+
+if not w then
+    print("script failed to load")
+else
+   print("script loaded") 
+end
