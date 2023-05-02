@@ -16,3 +16,7 @@ you can use it; however, you must keep the credits and allow others to find this
 local scriptLink = "https://github.com/wello-gh/doors-script/raw/main/main.lua"
 loadstring(game:HttpGet(scriptLink))
 ```
+
+### more info
+
+the `deps` folder is dependencies, they are useful, (i have coded them, but some may not be mine) so thats why i keep them. you can use those but follow the guidelines above (in the can i use section). it would also help if you contributed to my work, actually.
